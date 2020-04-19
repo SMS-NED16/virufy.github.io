@@ -3304,9 +3304,14 @@ button:disabled,
 
 
 /* 
+	CUSTOM STYLES - Saad Siddiqui
 	Collaborators Header
  */
 #collaborators {
 	font-size: 48px;
 	margin: 0;		/*Overrides default 1.5em bottom margin for h1 - h6*/
+}
+
+#header-virufy-span {
+	color: #6cc091
 }
