@@ -3258,7 +3258,7 @@ button:disabled,
 /* Footer */
 
 #footer {
-	padding: 6em 0;
+	padding: 3em 0;						/* To bring the footer heading closer to section's top edge*/
 	background: #6cc091;
 	color: #fff;
 	text-align: center;
@@ -3305,13 +3305,20 @@ button:disabled,
 
 /* 
 	CUSTOM STYLES - Saad Siddiqui
-	Collaborators Header
  */
+ /* Collaborators Heading */
 #collaborators {
 	font-size: 48px;
 	margin: 0;		/*Overrides default 1.5em bottom margin for h1 - h6*/
 }
 
+/* The 'Virufy' in welcome to Virufy on the landing page */
 #header-virufy-span {
 	color: #6cc091
+}
+
+/* 'Get in touch' h1 */
+#footer h1 {
+	font-size: 48px;
+	color: #fff;
 }
