@@ -3301,3 +3301,12 @@ button:disabled,
 		padding: 3em 0;
 	}
 }
+
+
+/* 
+	Collaborators Header
+ */
+#collaborators {
+	font-size: 48px;
+	margin: 0;		/*Overrides default 1.5em bottom margin for h1 - h6*/
+}
