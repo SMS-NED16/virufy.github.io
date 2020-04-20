@@ -3322,3 +3322,16 @@ button:disabled,
 	font-size: 48px;
 	color: #fff;
 }
+
+/* GitHub Icon in footer */
+.footer-icons i {
+	/* To make icon black. Otherwise, overridden to have same color as the 
+	footer, which makes it invisible. */
+	color: black;
+}
+
+.footer-icons a {
+	/* To remove underline that appears beneath GitHub icon since its a link */
+	text-decoration: none;
+	padding: 100px 0px;
+}
